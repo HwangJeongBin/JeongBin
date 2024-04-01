@@ -8,7 +8,7 @@ public class Main {
         arrayList.add(new Student("홍길동",175,75));
         arrayList.add(new Student("이서경", 180, 78));
         arrayList.add(new Student("이영희", 155, 49));
-        arrayList.add(new Student("김멋사123", 182, 82));
+        arrayList.add(new Student("김멋사", 182, 82));
         fatMan = arrayList.get(0).getBMI();
         fatManIndex = 0;
         for(int i=1;i<arrayList.size();i++) {
